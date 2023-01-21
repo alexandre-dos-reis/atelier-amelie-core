@@ -24,11 +24,13 @@ specifiers:
   ts-node: 10.9.1
   tslib: ^2.3.0
   typescript: ~4.8.2
+  zod: ^3.20.2
 
 dependencies:
   fastify: 3.29.5
   postgraphile: 4.13.0
   tslib: 2.4.1
+  zod: 3.20.2
 
 devDependencies:
   '@nrwl/esbuild': 15.5.3_2lqopjhtmnbjhmt3rzddpqeyxi
@@ -7627,3 +7629,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod/3.20.2:
+    resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
+    dev: false

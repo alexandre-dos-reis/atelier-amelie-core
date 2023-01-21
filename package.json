@@ -2,7 +2,10 @@
   "name": "atelier-amelie-core",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "docker:up": "docker-compose --env-file .env -f docker/atelier-amelie-core/compose.yml up -d",
+    "docker:down": "docker-compose --env-file .env -f docker/atelier-amelie-core/compose.yml down"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/esbuild": "15.5.3",
@@ -29,6 +32,7 @@
   "dependencies": {
     "fastify": "3",
     "postgraphile": "^4.13.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "zod": "^3.20.2"
   }
 }
